@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "../devlogger/node_modules/font-awesome/css/font-awesome.css",
+              "../devlogger/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../devlogger/node_modules/jquery/dist/jquery.js",
+              "../devlogger/node_modules/popper.js/dist/umd/popper.js",
+              "../devlogger/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
